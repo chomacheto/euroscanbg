@@ -1,0 +1,34 @@
+{
+  "name": "euroscanbg-website",
+  "version": "1.0.0",
+  "description": "Официалният уебсайт на EuroScan BG",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Website is already built'",
+    "preview": "npx serve .",
+    "lint": "echo 'No linting configured'",
+    "format": "echo 'No formatting configured'"
+  },
+  "keywords": [
+    "euroscan",
+    "bulgaria",
+    "website",
+    "price-converter",
+    "euro",
+    "bgn"
+  ],
+  "author": "EuroScan BG",
+  "license": "MIT",
+  "homepage": "https://euroscanbg.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/euroscanbg-website.git"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
